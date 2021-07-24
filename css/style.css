@@ -328,6 +328,7 @@ header .icons #menu-bar {
 
   .footer .footer-container1 .box-container1 .box{
     flex: 1 0 auto;
+    
   }
   .footer .footer-container1 .box-container1 .box h3{
     color: var(--orange);
