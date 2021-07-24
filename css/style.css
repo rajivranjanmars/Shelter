@@ -320,13 +320,14 @@ header .icons #menu-bar {
   }
 
   .footer .footer-container1 .box-container1{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    flex-direction: row;
   }
 
   .footer .footer-container1 .box-container1 .box{
-    flex: 1 1 125rem;
+    flex: 1 0 auto;
   }
   .footer .footer-container1 .box-container1 .box h3{
     color: var(--orange);
