@@ -247,6 +247,10 @@ header .icons #menu-bar {
     padding:.5rem 0;
   }
 
+  .team .card-container .card p{
+    font-size: 13px;
+  }
+
   
   .team .card-container .card .icons a{
     font-size: 1.9rem;
@@ -266,7 +270,7 @@ header .icons #menu-bar {
   
   .news .card-container{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     flex-wrap: wrap;
     padding:3rem 0;
