@@ -119,11 +119,12 @@ header .icons #menu-bar {
 
 .home{
     min-height: 90vh;
-    background: gray;
+    background: #f5f5f5;
     display: flex;
     align-items: center;
     flex-wrap: wrap-reverse;
     gap: 1.5rem;
+    border-color: #a9a9a9;
 }
 
 .home .content{
