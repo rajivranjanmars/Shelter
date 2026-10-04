@@ -21,3 +21,15 @@ We learned to build a chat app with WebSockets using Node.js, Express and Socket
 
 ## What's next for Shelter
 We will work for the betterment of the platform by working on its responsiveness and develop an easy pathway between the donor's and receiver's interface
+
+## Repository overview
+
+Disaster-support website with preparedness information and resource/donation pages. The `chatcord-master/` application adds room-based real-time chat using Node.js, Express, and Socket.IO.
+
+## Local use
+
+Serve the static site with `python -m http.server 8000`. To run chat, use `cd chatcord-master`, `npm ci`, then `npm start`, and open `http://localhost:3000/`. The chat implementation retains its original ChatCord/Brad Traversy attribution.
+
+## Author
+
+Author: [rajivranjanmars](https://rajivranjana.in).

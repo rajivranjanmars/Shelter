@@ -5,16 +5,22 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "node --watch server.js"
   },
   "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.24.0",
-    "socket.io": "^2.4.0"
+    "socket.io": "^4.8.3"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
+  "contributors": [
+    {
+      "name": "rajivranjanmars",
+      "url": "https://rajivranjana.in"
+    }
+  ],
+  "engines": {
+    "node": ">=22.12.0"
   }
 }

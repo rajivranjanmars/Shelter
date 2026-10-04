@@ -1,7 +1,7 @@
 const path = require('path');
 const http = require('http');
 const express = require('express');
-const socketio = require('socket.io');
+const { Server } = require('socket.io');
 const formatMessage = require('./utils/messages');
 const {
   userJoin,
@@ -12,7 +12,7 @@ const {
 
 const app = express();
 const server = http.createServer(app);
-const io = socketio(server);
+const io = new Server(server);
 
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')));
