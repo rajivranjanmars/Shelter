@@ -32,4 +32,4 @@ Serve the static site with `python -m http.server 8000`. To run chat, use `cd ch
 
 ## Author
 
-Author: [rajivranjanmars](https://rajivranjana.in).
+Author: [Rajiv Ranjan](https://rajivranjan.in).
